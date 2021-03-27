@@ -32,7 +32,7 @@ async def pmfilter(client, message):
     me = await message._client.get_me()
     await message.reply_text( f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 I am Delete Events bot, I can delete Service message. Just Add me in group as admin.""",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ðŸ”¶ ADD Me ðŸ”¶",url=f"https://t.me/Del_Events_Bot?startgroup=true")]]),
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="❤️ ADD Me ❤️",url=f"http://t.me/KeysDelEvents_bot?startgroup=true")]]),
                              quote=True)
 
 @Delevents.on_message(filters.private & ~filters.command('start'))
